@@ -17,7 +17,7 @@ sudo apt-get update
 **Step 2:** Set SUMO HOME Variable
 1. Run the following command in the terminal to add the SUMO HOME variable
 to your /.bashrc file:
-**echo ‘export SUMO HOME=“/usr/share/sumo”’>> ∼/.bashrc**
+**echo 'export SUMO_HOME="/usr/share/sumo"' >> ~/.bashrc**
 2. Run the following command to activate the modifications made to ∼/.bashrc:
 **source ∼/.bashrc**
 
@@ -36,7 +36,7 @@ use the interface we provide. In order to do that, please follow the following s
 **Step 5:** Install Streamlit
 1. Install Streamlit on your device by running the following command on the Ubuntu
 terminal:
-**pip install Streamlit**
+**pip install streamlit**
 2. Change the directory to the one where all the system files are located.
 3. Run the following command to access the Streamlit interface:
 **Streamlit run main.py**
